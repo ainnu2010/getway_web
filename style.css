@@ -1,0 +1,166 @@
+/* Global Styles & Fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+        margin: 0;
+            padding: 0;
+                background-color: #1a1a1a;
+                    color: #f0f0f0;
+                    }
+
+                    .container {
+                        max-width: 1200px;
+                            margin: 0 auto;
+                                padding: 0 20px;
+                                }
+
+                                /* Reusable Button Style */
+                                .btn {
+                                    display: inline-block;
+                                        padding: 12px 25px;
+                                            border-radius: 5px;
+                                                text-decoration: none;
+                                                    font-weight: 600;
+                                                        transition: background-color 0.3s ease, color 0.3s ease;
+                                                            border: 2px solid #d9534f;
+                                                                background-color: transparent;
+                                                                    color: #d9534f;
+                                                                    }
+
+                                                                    .btn:hover {
+                                                                        background-color: #d9534f;
+                                                                            color: #fff;
+                                                                            }
+
+                                                                            /* Header Section */
+                                                                            .header {
+                                                                                background-color: #1a1a1a;
+                                                                                    padding: 15px 0;
+                                                                                        border-bottom: 1px solid #333;
+                                                                                        }
+
+                                                                                        .header .container {
+                                                                                            display: flex;
+                                                                                                justify-content: space-between;
+                                                                                                    align-items: center;
+                                                                                                    }
+
+                                                                                                    .logo img {
+                                                                                                        height: 35px; /* Adjust logo size */
+                                                                                                        }
+
+                                                                                                        /* Services Grid Section */
+                                                                                                        .services-grid {
+                                                                                                            background-color: #1a1a1a;
+                                                                                                                padding: 60px 0;
+                                                                                                                    text-align: center;
+                                                                                                                    }
+
+                                                                                                                    .services-grid .container {
+                                                                                                                        display: grid;
+                                                                                                                            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                                                                                                                                gap: 30px;
+                                                                                                                                }
+
+                                                                                                                                .service-item {
+                                                                                                                                    background-color: #2b2b2b;
+                                                                                                                                        padding: 40px 20px;
+                                                                                                                                            border-radius: 10px;
+                                                                                                                                                transition: transform 0.3s ease;
+                                                                                                                                                    border: 1px solid transparent;
+                                                                                                                                                    }
+
+                                                                                                                                                    .service-item:hover {
+                                                                                                                                                        transform: translateY(-10px);
+                                                                                                                                                            border-color: #d9534f;
+                                                                                                                                                            }
+
+                                                                                                                                                            .service-item i {
+                                                                                                                                                                font-size: 50px;
+                                                                                                                                                                    color: #d9534f;
+                                                                                                                                                                        margin-bottom: 15px;
+                                                                                                                                                                        }
+
+                                                                                                                                                                        .service-item p {
+                                                                                                                                                                            font-weight: 600;
+                                                                                                                                                                                font-size: 1.1em;
+                                                                                                                                                                                    color: #f0f0f0;
+                                                                                                                                                                                    }
+
+                                                                                                                                                                                    /* Why Choose Us Section */
+                                                                                                                                                                                    .why-choose-us {
+                                                                                                                                                                                        background-color: #1a1a1a;
+                                                                                                                                                                                            padding: 80px 0;
+                                                                                                                                                                                                text-align: center;
+                                                                                                                                                                                                    border-top: 1px solid #333;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                    .why-choose-us-content {
+                                                                                                                                                                                                        background-color: #1a1a1a;
+                                                                                                                                                                                                            padding: 40px;
+                                                                                                                                                                                                                border-radius: 10px;
+                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                .section-tag {
+                                                                                                                                                                                                                    color: #d9534f;
+                                                                                                                                                                                                                        text-transform: uppercase;
+                                                                                                                                                                                                                            font-weight: 600;
+                                                                                                                                                                                                                                letter-spacing: 1px;
+                                                                                                                                                                                                                                    margin-bottom: 10px;
+                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                    .why-choose-us h2 {
+                                                                                                                                                                                                                                        font-size: 2.5em;
+                                                                                                                                                                                                                                            margin-top: 0;
+                                                                                                                                                                                                                                                color: #fff;
+                                                                                                                                                                                                                                                    font-weight: 700;
+                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                    .experience {
+                                                                                                                                                                                                                                                        margin: 40px 0;
+                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                        .experience .number {
+                                                                                                                                                                                                                                                            font-size: 5em;
+                                                                                                                                                                                                                                                                font-weight: 700;
+                                                                                                                                                                                                                                                                    color: #fff;
+                                                                                                                                                                                                                                                                        line-height: 1;
+                                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                                        .experience p {
+                                                                                                                                                                                                                                                                            font-size: 1.2em;
+                                                                                                                                                                                                                                                                                font-weight: 600;
+                                                                                                                                                                                                                                                                                    color: #d9534f;
+                                                                                                                                                                                                                                                                                        margin-top: 5px;
+                                                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                                                        .reasons-list {
+                                                                                                                                                                                                                                                                                            list-style: none;
+                                                                                                                                                                                                                                                                                                padding: 0;
+                                                                                                                                                                                                                                                                                                    text-align: left;
+                                                                                                                                                                                                                                                                                                        max-width: 500px;
+                                                                                                                                                                                                                                                                                                            margin: 0 auto 40px;
+                                                                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                                                                            .reasons-list li {
+                                                                                                                                                                                                                                                                                                                display: flex;
+                                                                                                                                                                                                                                                                                                                    align-items: center;
+                                                                                                                                                                                                                                                                                                                        margin-bottom: 15px;
+                                                                                                                                                                                                                                                                                                                            color: #ccc;
+                                                                                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                                                                                            .reasons-list i {
+                                                                                                                                                                                                                                                                                                                                color: #d9534f;
+                                                                                                                                                                                                                                                                                                                                    font-size: 1.2em;
+                                                                                                                                                                                                                                                                                                                                        margin-right: 15px;
+                                                                                                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                                                                                                        .reasons-list p {
+                                                                                                                                                                                                                                                                                                                                            margin: 0;
+                                                                                                                                                                                                                                                                                                                                                font-size: 1em;
+                                                                                                                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                                                                                                                .btn-quote {
+                                                                                                                                                                                                                                                                                                                                                    padding: 15px 40px;
+                                                                                                                                                                                                                                                                                                                                                        font-size: 1.1em;
+                                                                                                                                                                                                                                                                                                                                                        }
+                                                                                                                                                                                                                                                                                                                                                        
